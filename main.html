@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <!-- css link -->
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/responsive.css">
+
+
+
+     <!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="icon" href="image/NEW_GOLDS_LOGO.png">
+    <title>NEW GOLDS SUPPLEMENT</title>
+
+</head>
+<body>
+
+     <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: black ;">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img src="image/NEW_GOLDS_LOGO.png" class="img-fluid" alt="Cake Logo" style="width: 200px; height: 90px;">
+            </a>
+
+            <button class="navbar-toggler" style="background-color: rgb(0, 0, 0);" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+               <ul class="navbar-nav ms-auto align-items-lg-center gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#about">About</a>
+                    </li>
+
+                  
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#product">Product</a>
+                    </li>
+
+                     <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#Gym">Gym</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#contect">Contact</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex me-3">
+                    <a href="login.html" class="btn text-dark nav-btn" type="submit" >Log In</a>
+            
+                </form>
+
+        <a href="" class="cart-btn mt-2 ">
+            <i class="bi bi-cart3"></i>
+                Cart <span id="cart-count">0</span>
+        </a>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+<section class="container-fluid bg-black py-5 " id="home">
+    <div class="container">
+        <div class="row align-items-center py-4">
+
+            <!-- Left Side Text -->
+            <div class="col-12 col-lg-6 text-center text-lg-start">
+                <h1 class="text-warning fw-bold display-3">
+                    NEW GOLDS
+                </h1>
+
+                <h1 class="text-warning fw-bold display-4">
+                    SUPPLEMENTS
+                </h1>
+
+                <p class="text-white fs-5">
+                    Fuel Your Fitness. Build Your Strength.
+                </p>
+
+                <a href="#product" class="btn btn-warning btn-lg mt-3">
+                    Explore Products
+                </a>
+            </div>
+
+            <!-- Right Side Product Image -->
+            <div class="col-12 col-lg-6 text-center mt-4 mt-lg-0 py-4">
+                <img
+                    src="image/suppliment.png"
+                    class="img-fluid protein-glow"
+                    alt="New Golds Supplements" 
+                >
+            </div>
+
+        </div>
+    </div>
+
+    
+  
+<div class="container-fluid py-4">
+    <div class="row text-center align-items-center g-3">
+
+        <div class="col-4">
+            <div class="count-item" id="customer">
+                <div class="count-num" id="customer-count">0</div>
+                <div class="count-label">Customer</div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="count-item" id=" product">
+                <div class="count-num" id="product-count">0</div>
+                <div class="count-label">Product</div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="count-item" id="shop">
+                <div class="count-num" id="shop-count">0</div>
+                <div class="count-label">Shop</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+ <section class="about-section" id="about">
+
+        <div class="container">
+
+            <!-- About Heading -->
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+
+                    <p class="about-label">
+                        <span></span>
+                        ABOUT NEW GOLDS
+                        <span></span>
+                    </p>
+
+                    <h1 class="about-title">
+                        More Than Supplements.
+                        <span class="d-block">A Commitment to You.</span>
+                    </h1>
+
+                    <p class="about-description mx-auto">
+                        At New Golds Supplement, we believe fitness is
+                        built on trust, quality and consistency. Our goal
+                        is to support your fitness journey with quality-focused
+                        sports nutrition and clear product information.
+                    </p>
+
+                    <p class="about-description mx-auto">
+                        We are here to help you make informed choices
+                        as you work towards your fitness goals.
+                    </p>
+
+                    <!-- Redirect Button -->
+                    <a href="about.html" class="btn learn-btn mt-3">
+                        Learn More
+                        <i class="fa-solid fa-arrow-right ms-2"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div class="row features-row text-center g-4">
+
+                <div class="col-6 col-lg-3">
+                    <div class="feature-box">
+                        <i class="fa-solid fa-flask feature-icon"></i>
+                        <h5>Quality Focused</h5>
+                        <p>Attention to product quality</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="feature-box">
+                        <i class="fa-solid fa-shield-halved feature-icon"></i>
+                        <h5>Quality Standards</h5>
+                        <p>Quality and safety information</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="feature-box">
+                        <i class="fa-solid fa-leaf feature-icon"></i>
+                        <h5>Clear Ingredients</h5>
+                        <p>Product details you can review</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="feature-box">
+                        <i class="fa-solid fa-users feature-icon"></i>
+                        <h5>For Everyone</h5>
+                        <p>Support for every fitness journey</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+<section class="featured-section py-5" id="product">
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="section-heading mb-5">
+            <span class="gold-subtitle">OUR COLLECTION</span>
+
+            <h2>
+                FEATURED <span>PRODUCTS</span>
+            </h2>
+
+            <p>Fuel Your Fitness. Build Your Strength.</p>
+        </div>
+
+        <!-- Responsive Product Grid -->
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="product-badge">BEST SELLER</span>
+
+                    <img src="image/product/whay1.png"
+                         alt="Whey Protein">
+
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">PROTEIN</span>
+
+                    <h5>Whey Protein</h5>
+
+                    <p>Build lean muscle and support recovery.</p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i> 4.8
+                        <span>(241 reviews)</span>
+                    </div>
+
+                    <div class="price-row">
+                        <span class="price">₹2,499</span>
+                        <span class="old-price">₹2,999</span>
+                    </div>
+
+                    <button class="add-cart" onclick="addToCart('Whey Protein', 2499)">
+                    Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="product-badge">PREMIUM</span>
+
+                    <img src="image/product/iso protine.png"
+                         alt="ISO Protein">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">ISOLATE</span>
+
+                    <h5>ISO Protein</h5>
+
+                    <p>Premium protein for your fitness routine.</p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i> 4.9
+                        <span>(186 reviews)</span>
+                    </div>
+
+                    <div class="price-row">
+                        <span class="price">₹3,499</span>
+                        <span class="old-price">₹3,999</span>
+                    </div>
+
+                     <button class="add-cart" onclick="addToCart('ISO Protein', 3499)">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="product-badge">POPULAR</span>
+
+                    <img src="image/product/mass gainer.png"
+                         alt="Mass Gainer">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">MUSCLE GAIN</span>
+
+                    <h5>Mass Gainer</h5>
+
+                    <p>Extra calories to support weight gain.</p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i> 4.6
+                        <span>(132 reviews)</span>
+                    </div>
+
+                    <div class="price-row">
+                        <span class="price">₹2,199</span>
+                        <span class="old-price">₹2,599</span>
+                    </div>
+
+              <button class="add-cart" onclick="addToCart('Mass Gainer', 2199)">
+                    Add to Cart
+            </button>
+
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="product-badge">TOP RATED</span>
+
+                    <img src="image/product/CREATINE.png"
+                         alt="Creatine">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">STRENGTH</span>
+
+                    <h5>Creatine</h5>
+
+                    <p>Support strength and workout performance.</p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i> 4.7
+                        <span>(98 reviews)</span>
+                    </div>
+
+                    <div class="price-row">
+                        <span class="price">₹1,299</span>
+                        <span class="old-price">₹1,599</span>
+                    </div>
+                    <button class="add-cart" onclick="addToCart('Creatine', 1299)">
+                        Add to Cart
+                    </button>
+
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="image/product/pree workout.png"
+                         alt="Pre Workout">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">ENERGY</span>
+
+                    <h5>Pre-Workout</h5>
+
+                    <p>Prepare for your next workout session.</p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i> 4.8
+                        <span>(154 reviews)</span>
+                    </div>
+
+                    <div class="price-row">
+                        <span class="price">₹1,799</span>
+                        <span class="old-price">₹2,099</span>
+                    </div>
+
+                    <button class="add-cart" onclick="addToCart('Pre-Workout', 1799)">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="image/product/multivitamin.png"
+                         alt="Multivitamin">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">WELLNESS</span>
+
+                    <h5>Multivitamin</h5>
+
+                    <p>Daily nutritional support.</p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i> 4.6
+                        <span>(112 reviews)</span>
+                    </div>
+
+                    <div class="price-row">
+                        <span class="price">₹999</span>
+                        <span class="old-price">₹1,199</span>
+                    </div>
+
+                <button class="add-cart" onclick="addToCart('Multivitamin', 999)">
+                    Add to Cart
+                </button>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="image/product/fish oil.png"
+                         alt="Fish Oil">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">OMEGA 3</span>
+
+                    <h5>Fish Oil</h5>
+
+                    <p>Omega-3 nutritional supplement.</p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i> 4.7
+                        <span>(96 reviews)</span>
+                    </div>
+
+                    <div class="price-row">
+                        <span class="price">₹1,199</span>
+                        <span class="old-price">₹1,399</span>
+                    </div>
+
+                  <button class="add-cart" onclick="addToCart('Fish Oil', 1199)">
+                     Add to Cart
+                    </button>
+
+
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="image/product/bcaa.png"
+                         alt="BCAA">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">RECOVERY</span>
+
+                    <h5>BCAA</h5>
+
+                    <p>Supplement for your training routine.</p>
+
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i> 4.8
+                        <span>(128 reviews)</span>
+                    </div>
+
+                    <div class="price-row">
+                        <span class="price">₹1,499</span>
+                        <span class="old-price">₹1,799</span>
+                    </div>
+
+                     <button class="add-cart" onclick="addToCart('BCAA', 1499)">
+                       Add to Cart
+                      </button>
+                </div>
+            </div>
+
+        </div>
+
+       
+</section>
+
+
+
+
+<section class="gym-section py-5" id="Gym">
+
+    <div class="container">
+
+        <!-- Gym Introduction -->
+        <div class="gym-heading text-center mb-5">
+
+            <span class="subtitle">FITNESS • STRENGTH • BETTER YOU</span>
+
+            <h1>NEW GOLDS <span>GYM</span></h1>
+
+            <p>
+                Build a stronger body, a healthier mind and a better you.
+                At New Golds Gym, we provide a clean, safe and motivating
+                environment to help you achieve your fitness goals.
+            </p>
+
+            <div class="gym-features d-flex justify-content-center flex-wrap gap-4 mt-4">
+                <span><i class="bi bi-check-circle-fill"></i> Modern Equipment</span>
+                <span><i class="bi bi-check-circle-fill"></i> Expert Trainers</span>
+                <span><i class="bi bi-check-circle-fill"></i> Clean Environment</span>
+            </div>
+
+        </div>
+
+
+        <!-- Membership Plans -->
+        <div class="text-center section-title">
+            <h2>MEMBERSHIP <span>PLANS</span></h2>
+            <p>Choose the right plan for your fitness journey.</p>
+        </div>
+
+        <div class="plan-grid mb-5">
+
+            <!-- 3 Month Plan -->
+            <div class="plan-card">
+
+                <i class="bi bi-activity plan-icon"></i>
+
+                <h4>3 MONTH PLAN</h4>
+
+                <h3>₹2,500</h3>
+
+                <hr>
+
+                <ul>
+                    <li><i class="bi bi-check-circle-fill"></i> Full Gym Access</li>
+                    <li><i class="bi bi-check-circle-fill"></i> All Equipment</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Group Classes</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Locker Facility</li>
+                </ul>
+
+                <a href="#contact" class="plan-btn">JOIN NOW <i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+
+            <!-- 6 Month Plan -->
+            <div class="plan-card">
+
+                <i class="bi bi-activity plan-icon"></i>
+
+                <h4>6 MONTH PLAN</h4>
+
+                <h3>₹3,500</h3>
+
+                <hr>
+
+                <ul>
+                    <li><i class="bi bi-check-circle-fill"></i> Full Gym Access</li>
+                    <li><i class="bi bi-check-circle-fill"></i> All Equipment</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Group Classes</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Locker Facility</li>
+                </ul>
+
+                <a href="#contact" class="plan-btn">JOIN NOW <i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+
+            <!-- 1 Year Plan -->
+            <div class="plan-card featured-plan">
+
+                <span class="plan-badge">BEST VALUE</span>
+
+                <i class="bi bi-trophy plan-icon"></i>
+
+                <h4>1 YEAR PLAN</h4>
+
+                <h3>₹4,500</h3>
+
+                <hr>
+
+                <ul>
+                    <li><i class="bi bi-check-circle-fill"></i> Full Gym Access</li>
+                    <li><i class="bi bi-check-circle-fill"></i> All Equipment</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Group Classes</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Locker Facility</li>
+                </ul>
+
+                <a href="#contact" class="plan-btn">JOIN NOW <i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Personal Training -->
+        <div class="text-center section-title">
+            <h2>PERSONAL <span>TRAINING (PT)</span></h2>
+            <p>Get Personalized. Get Better.</p>
+        </div>
+
+        <div class="pt-intro text-center mb-4">
+            Our trainers help you work towards your fitness goals with
+            personalized workouts, training sessions and progress tracking.
+        </div>
+
+        <div class="plan-grid pt-grid mb-5">
+
+            <!-- 3 Month PT -->
+            <div class="plan-card pt-card">
+
+                <i class="bi bi-person-check plan-icon"></i>
+
+                <h4>3 MONTH PT</h4>
+
+                <h3>₹10,000</h3>
+
+                <ul>
+                    <li><i class="bi bi-check-circle-fill"></i> Personal Trainer</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Custom Workout Plan</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Progress Tracking</li>
+                </ul>
+
+                <a href="#contact" class="plan-btn">GET STARTED <i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+
+            <!-- 6 Month PT -->
+            <div class="plan-card pt-card">
+
+                <i class="bi bi-person-check plan-icon"></i>
+
+                <h4>6 MONTH PT</h4>
+
+                <h3>₹15,000</h3>
+
+                <ul>
+                    <li><i class="bi bi-check-circle-fill"></i> Personal Trainer</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Custom Workout Plan</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Progress Tracking</li>
+                </ul>
+
+                <a href="#contact" class="plan-btn">GET STARTED <i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+
+            <!-- 1 Year PT -->
+            <div class="plan-card pt-card">
+
+                <span class="plan-badge">MOST POPULAR</span>
+
+                <i class="bi bi-person-check plan-icon"></i>
+
+                <h4>1 YEAR PT</h4>
+
+                <h3>₹20,000</h3>
+
+                <ul>
+                    <li><i class="bi bi-check-circle-fill"></i> Personal Trainer</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Custom Workout Plan</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Progress Tracking</li>
+                </ul>
+
+                <a href="#contact" class="plan-btn">GET STARTED <i class="bi bi-arrow-right"></i></a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Bottom Buttons -->
+        <div class="gym-actions text-center" id="contact">
+
+            
+            <a href="https://new-gold-gym-xi.vercel.app/" target="_blank" class="website-btn">
+                <i class="bi bi-globe"></i>
+                OFFICIAL WEBSITE
+                <i class="bi bi-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- Footer -->
+        <div class="gym-footer text-center mt-5">
+            <h5>NEW GOLDS GYM</h5>
+            <p>STRONGER • FITTER • HEALTHIER</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="container-fluid py-5 text-center" id="contect">
+    <p class="section-tag">— GET IN TOUCH —</p>
+    <h1 class="main-title">CONTACT <span>US</span></h1>
+    <p class="subtitle">Have questions? We're here to help!</p>
+
+    <div class="row g-4 contact-row text-start">
+
+        <div class="col-12 col-lg-7">
+            <div class="contact-card">
+                <h2><i class="bi bi-geo-alt-fill"></i> Our <span>Location</span></h2>
+                <p class="card-subtitle">Visit New Golds Gym.</p>
+
+                <div class="map-box">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14875.835662845117!2d72.8170496!3d21.233477699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1792660421154!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>                </div>
+
+                <hr>
+                <div class="row contact-info">
+                    <div class="col-md-4">
+                        <b class="info-heading">Address</b>
+                        <p>Surat, Gujarat, India</p>
+                    </div>
+                    <div class="col-md-4">
+                        <b class="info-heading">Phone</b>
+                        <p>+91 76009 00309</p>
+                    </div>
+                    <div class="col-md-4">
+                        <b class="info-heading">Email</b>
+                        <p>harshunagar3939@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-5">
+            <div class="contact-card">
+                <h2><i class="bi bi-envelope-fill"></i> Join Our <span>Community</span></h2>
+                <p class="card-subtitle">Subscribe for updates and exclusive offers.</p>
+
+                <form>
+                    <label class="form-label">Your Name</label>
+                    <input class="form-control mb-3" type="text" placeholder="Enter your name" required>
+
+                    <label class="form-label">Email Address</label>
+                    <input class="form-control mb-3" type="email" placeholder="Enter your email" required>
+
+                    <label class="form-label">Interested In</label>
+                    <select class="form-select mb-4">
+                        <option>Gym Membership</option>
+                        <option>Personal Training</option>
+                    </select>
+
+                    <button class="subscribe-btn" type="submit">SUBSCRIBE →</button>
+                    <p class="privacy-note mt-3"><i class="bi bi-shield-check"></i> Your information stays private.</p>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="footer-section">
+    <div class="container py-5">
+        <div class="row gy-4">
+
+            <!-- Logo and About -->
+            <div class="col-lg-4 col-md-6">
+                <img src="img/logo.png" alt="New Golds Logo"
+                     class="footer-logo mb-3">
+
+                <h4>NEW GOLDS SUPPLEMENT</h4>
+                <p>
+                    Fuel your fitness journey with quality
+                    sports nutrition and supplements.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-4 col-md-6">
+                <h5>Quick Links</h5>
+                <ul class="footer-links">
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="main.html#Gym">Gym</a></li>
+                    <li><a href="main.html#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-lg-4 col-md-12">
+                <h5>Contact Us</h5>
+                <p>📍 Surat, Gujarat, India</p>
+                <p>📞 +91 76009 00309</p>
+                <p>✉️ harshunagar3939@gmail.com</p>
+            </div>
+
+        </div>
+
+        <hr class="footer-line">
+
+        <div class="footer-bottom">
+            <p>© 2026 New Golds Supplement. All Rights Reserved.</p>
+            <a href="#top" class="back-to-top">↑</a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script src="javascript/main.js"></script>
+</body>
+</html>

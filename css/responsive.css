@@ -1,0 +1,52 @@
+
+/* counter responsive */
+
+/* Tablet */
+@media (max-width: 768px) {
+    .count-num {
+        font-size: 28px;
+    }
+
+    .count-label {
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .count-item {
+        padding: 15px 3px;
+    }
+
+    .count-num {
+        font-size: 22px;
+    }
+
+    .count-label {
+        font-size: 11px;
+    }
+}
+
+
+/* about responsive */
+
+
+@media (max-width: 767px) {
+    .feature-box {
+        border-right: none;
+    }
+
+    .features-row {
+        margin-top: 30px;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
